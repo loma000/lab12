@@ -1,7 +1,9 @@
 #include<iostream>
-
+#include<string>
 using namespace std;
 
+template <typename la>
+la mySwap(la&,la&); 
 int main(){
 	int x, y;
 	string a, b;
@@ -29,4 +31,12 @@ int main(){
 
 	return 0;
 }
+template <typename la>
+la mySwap(la &x,la &y){ 
 
+la aray[]={x,y};
+x = aray[1];
+y = aray[0];
+return x;
+
+ }

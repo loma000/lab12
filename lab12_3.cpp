@@ -15,3 +15,10 @@ int main(){
 	
 	return 0;
 }
+void mySwap(int &x,int &y){ 
+
+int aray[]={x,y};
+x = aray[1];
+y = aray[0];
+
+ }
